@@ -14,8 +14,6 @@ typedef struct LinkedList
 
 LinkedList *createLinkedList();
 void append(LinkedList *list, void *data);
-void printIntData(void *data);
-void printFloatData(void *data);
 void printLinkedList(LinkedList *list, void (*printData)(void *));
 void freeLinkedList(LinkedList *list);
 

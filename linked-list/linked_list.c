@@ -30,18 +30,6 @@ void append(LinkedList *list, void *data)
   }
 }
 
-void printIntData(void *data)
-{
-  int *num = (int *)data;
-  printf("%d ", *num);
-}
-
-void printFloatData(void *data)
-{
-  float *num = (float *)data;
-  printf("%f ", *num);
-}
-
 void printLinkedList(LinkedList *list, void (*printData)(void *))
 {
   Node *current = list->head;
